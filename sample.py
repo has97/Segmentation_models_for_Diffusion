@@ -18,15 +18,15 @@ if __name__ == "__main__":
     # ch=1,
     # dim_mults = (1, 2, 4)
     # )
-    # model = LinkNetBaseMNIST(
-#     dim = 64,
-#     dim_mults = (1, 2, 4, 8))
-    model = ResUnet(
-        dim = 64,
-        channels=1,
-        # in_ch=1,
-        dim_mults = (1, 2 ,4)
-    )
+    model = LinkNetBaseMNIST(
+    dim = 64,
+    dim_mults = (1, 2, 4, 8))
+    # model = ResUnet(
+    #     dim = 64,
+    #     channels=1,
+    #     # in_ch=1,
+    #     dim_mults = (1, 2 ,4)
+    # )
 # model = SegNetBase(
 #     dim = 64,
 #     channels=1,
