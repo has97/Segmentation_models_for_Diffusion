@@ -1,3 +1,4 @@
+################ This code is modified and adapted for task of denoising diffusion model :  https://gitcode.net/mirrors/chen-zhoujian/SegNet-pytorch/-/blob/master/SegNet.py
 import torch
 from torch import nn, einsum
 import torch.nn.functional as F

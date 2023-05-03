@@ -1,3 +1,4 @@
+################ This code is modified and adapted for task of denoising diffusion model : https://github.com/e-lab/pytorch-linknet/
 import torch
 from torch import nn, einsum
 import torch.nn.functional as F
